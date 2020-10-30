@@ -1,7 +1,7 @@
 function Get-AllVms {
     <#
        .SYNOPSIS
-            This function uncompresses the Veritas outputted .csv and imports the data
+            This function will collect basic information on all VMs within a cluster.
     #>
     [CmdletBinding()]
     param (
